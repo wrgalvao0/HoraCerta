@@ -1,0 +1,40 @@
+.icones-navbar{
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.navbar-brand{
+    margin-bottom: 10px;
+}
+.nav-form{
+    margin-bottom: 10px;
+}
+.icones-navbar{
+    margin-bottom: 10px;
+}
+.nav-link{
+    color: white;
+}
+.valor-compra{
+    color: white;
+}
+.input-pesquisar{
+    border-radius: 0px;
+    padding: 10px;
+    border: 1px solid #bf9577;
+}
+.btn-outline-success{
+    border: 1px solid #bf9577;
+    color: #bf9577;
+}
+@media (min-width: 992px){
+    .nav-form{
+        width: 50%;
+    }
+}
+@media (min-width: 768px){
+    .nav-form{
+        width: 70%;
+    }
+}
