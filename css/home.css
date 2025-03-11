@@ -39,6 +39,19 @@ body{
 .title-banner{
     font-size: 1.5rem;
 }
+#botao-pesquisar:hover{
+    background-color: transparent;
+    border: 1px solid #bf9577;
+    color: #bf9577;
+}
+#botao-pesquisar:active{
+    color: #a64d00;
+}	
+.input-pesquisar:focus{
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #bf9577
+}
 @media (min-width: 992px){
     .nav-form{
         width: 50%;
