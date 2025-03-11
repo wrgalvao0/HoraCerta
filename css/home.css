@@ -52,14 +52,122 @@ body{
     box-shadow: none;
     border: 1px solid #bf9577
 }
+.mini-banners {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Ajusta o espaçamento entre os elementos */
+}
+#mini-banner-1{
+    background-image: url('../img/relogio1.png');
+    background-size: 30% 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    background-color: #101010;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    border-radius: 5px;
+}
+#mini-banner-2{
+    background-image: url('../img/relogio2.png');
+    background-size: 25% 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    background-color: #c09578;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    border-radius: 5px;
+}
+#mini-banner-3{
+    background-image: url('../img/relogio3.png');
+    background-size: 35% 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    background-color: #fbf5eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    border-radius: 5px;
+}
+#text-mini-banner-1{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+#text-mini-banner-2{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+#text-mini-banner-3{
+    color: #65635f;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+#link-mini-banner-1{
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+#link-mini-banner-2{
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+#link-mini-banner-3{
+    color: #65635f;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+.mini-banners div {
+    width: 30%; /* Define a largura dos mini-banners */
+    height: 250px; /* Define a altura dos mini-banners */
+    background-size: cover; /* Faz a imagem de fundo cobrir todo o elemento */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 @media (min-width: 992px){
     .nav-form{
         width: 50%;
     }
 }
+
 @media (min-width: 768px){
     .nav-form{
         width: 70%;
+    }
+    #mini-banner-1{
+        background-size: 40% 60%;
+    }
+    #mini-banner-2{
+        background-size: 30% 60%;
+    }
+    #mini-banner-3{
+        background-size: 40% 60%;
     }
 }
 @media (max-width: 576px){
@@ -83,4 +191,31 @@ body{
         padding-left: 0px;
         padding-right: 0px;
     }
-} 
+    .mini-banners{
+        flex-direction: column;
+        align-items: center;
+    }
+    #mini-banner-1{
+        width: 95%;
+        margin-bottom: 20px;
+    }
+    #mini-banner-2{
+        width: 95%;
+        margin-bottom: 20px;
+    }
+    #mini-banner-3{
+        width: 95%;
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 992px){
+    #mini-banner-1{
+        background-size: 30% 90%;
+    }
+    #mini-banner-2{
+        background-size: 25% 90%;
+    }
+    #mini-banner-3{
+        background-size: 35% 90%;
+    }
+}
