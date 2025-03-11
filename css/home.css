@@ -149,7 +149,40 @@ body{
     background-position: center;
     background-repeat: no-repeat;
 }
-
+#text-best-sellers{
+    margin-top: 10px;
+    color: #c09578;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.botao-comprar-cards{
+    background-color: transparent;
+    color: white;
+    border: 1px solid #bf9577;
+    color: white;
+}
+.botao-comprar-cards:hover{
+    background-color: #bf9577;
+    border: 1px solid #bf9577;
+    color: white;
+}
+.card-text{
+    color: #bf9577;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.card{
+    background-color: transparent;
+    border: none;
+}
+.card-title{
+    color: white;
+}
+.card-img-top{
+    height: 200px;
+    width: 100%;
+    object-fit: contain;
+}
 @media (min-width: 992px){
     .nav-form{
         width: 50%;
@@ -206,6 +239,11 @@ body{
     #mini-banner-3{
         width: 95%;
         margin-bottom: 20px;
+    }
+    .card{
+        border-top: 1px solid #bf9577;
+        border-bottom: 1px solid #bf9577;
+        border-radius: 0px;
     }
 }
 @media (min-width: 992px){
