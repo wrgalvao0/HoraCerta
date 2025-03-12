@@ -146,7 +146,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
 }
-#text-best-sellers{
+.text-title-section{
     margin-top: 10px;
     color: #c09578;
     margin-bottom: 20px;
@@ -202,6 +202,19 @@ body{
     color: white;
     font-size: 1rem;
     text-align: center;
+}
+#text-1-novidades{
+    color: #545454
+}
+#text-2-novidades{
+    color: white;
+    font-size: 50px;
+}
+#text-3-novidades{
+    color: #bf9577;
+}
+.lateral-novidades{
+    background-color: black
 }
 @media (min-width: 992px){
     .nav-form{
@@ -267,6 +280,9 @@ body{
     }
     .div-imagem-destaque{
         margin-top: 20px;
+    }
+    .lateral-novidades{
+        height: 300px;
     }
 }
 @media (min-width: 992px){
