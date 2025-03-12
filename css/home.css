@@ -40,9 +40,9 @@ body{
     font-size: 1.5rem;
 }
 #botao-pesquisar:hover{
-    background-color: transparent;
+    background-color: #bf9577;
     border: 1px solid #bf9577;
-    color: #bf9577;
+    color: white;
 }
 #botao-pesquisar:active{
     color: #a64d00;
@@ -69,7 +69,6 @@ body{
     flex-direction: column;
     justify-content: space-between;
     align-items: start;
-    border-radius: 5px;
 }
 #mini-banner-2{
     background-image: url('../img/relogio2.png');
@@ -82,7 +81,6 @@ body{
     flex-direction: column;
     justify-content: space-between;
     align-items: start;
-    border-radius: 5px;
 }
 #mini-banner-3{
     background-image: url('../img/relogio3.png');
@@ -95,7 +93,6 @@ body{
     flex-direction: column;
     justify-content: space-between;
     align-items: start;
-    border-radius: 5px;
 }
 #text-mini-banner-1{
     color: white;
@@ -183,6 +180,29 @@ body{
     width: 100%;
     object-fit: contain;
 }
+.container-destaque{
+    background-color: black;
+}
+.imagem-destaque{
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+}
+#texto-destaque-1{
+    color: #bf9577;
+    font-weight: bold;
+    font-size: 1rem;
+}
+#texto-destaque-2{
+    color: white;
+    font-weight: bold;
+    font-size: 48px;
+}
+#texto-destaque-3{
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+}
 @media (min-width: 992px){
     .nav-form{
         width: 50%;
@@ -244,6 +264,9 @@ body{
         border-top: 1px solid #bf9577;
         border-bottom: 1px solid #bf9577;
         border-radius: 0px;
+    }
+    .div-imagem-destaque{
+        margin-top: 20px;
     }
 }
 @media (min-width: 992px){
