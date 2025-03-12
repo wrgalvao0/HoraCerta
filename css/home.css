@@ -170,7 +170,8 @@ body{
 }
 .card{
     background-color: transparent;
-    border: none;
+    border: 1px solid #545454;
+    border-radius: 0px;
 }
 .card-title{
     color: white;
@@ -216,6 +217,10 @@ body{
 .lateral-novidades{
     background-color: black
 }
+.card-img-top{
+    margin-top: 10px;
+}
+
 @media (min-width: 992px){
     .nav-form{
         width: 50%;
@@ -274,8 +279,9 @@ body{
         margin-bottom: 20px;
     }
     .card{
-        border-top: 1px solid #bf9577;
-        border-radius: 0px;
+        border-bottom: 0px;
+        border-left: 0px;
+        border-right: 0px;
     }
     .div-imagem-destaque{
         margin-top: 20px;
