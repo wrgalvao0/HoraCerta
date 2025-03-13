@@ -60,7 +60,7 @@ body{
 }
 #mini-banner-1{
     background-image: url('../img/relogio1.png');
-    background-size: 30% 90%;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     height: 250px;
@@ -72,7 +72,7 @@ body{
 }
 #mini-banner-2{
     background-image: url('../img/relogio2.png');
-    background-size: 25% 90%;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     height: 250px;
@@ -84,7 +84,7 @@ body{
 }
 #mini-banner-3{
     background-image: url('../img/relogio3.png');
-    background-size: 35% 90%;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     height: 250px;
@@ -96,15 +96,17 @@ body{
 }
 #text-mini-banner-1{
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: bold;
     text-align: center;
     margin-top: 15px;
     margin-left: 5px;
+    max-width: 100px;
+    text-align: start;
 }
 #text-mini-banner-2{
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: bold;
     text-align: center;
     margin-top: 15px;
@@ -112,11 +114,13 @@ body{
 }
 #text-mini-banner-3{
     color: #65635f;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: bold;
     text-align: center;
     margin-top: 15px;
     margin-left: 5px;
+    max-width: 100px;
+    text-align: start;
 }
 #link-mini-banner-1{
     color: white;
@@ -349,19 +353,37 @@ body{
         width: 70%;
     }
     #mini-banner-1{
-        background-size: 40% 60%;
+        background-size: contain;
+        background-position: center;
     }
     #mini-banner-2{
-        background-size: 30% 60%;
+        background-size: contain;
+        background-position: center;
     }
     #mini-banner-3{
-        background-size: 40% 60%;
+        background-size: contain;
+        background-position: center;
     }
     #telefone{
         font-size: 1.3rem;
     }
     .form-pesquisa{
         width: 70%;
+    }
+    #text-mini-banner-1{
+        max-width: 200px;
+        font-size: 1.5rem;
+    }
+    #text-mini-banner-3{
+        max-width: 200px;
+        font-size: 1.5rem;
+    }
+    #text-mini-banner-2{
+        font-size: 1.5rem;
+        max-width: 200px;
+    }
+    .mini-banners{
+        margin-top: 0px;
     }
 }
 @media (max-width: 576px){
@@ -388,18 +410,16 @@ body{
     .mini-banners{
         flex-direction: column;
         align-items: center;
+        margin-top: 0px;
     }
     #mini-banner-1{
-        width: 95%;
-        margin-bottom: 20px;
+        width: 100%;
     }
     #mini-banner-2{
-        width: 95%;
-        margin-bottom: 20px;
+        width: 100%;
     }
     #mini-banner-3{
-        width: 95%;
-        margin-bottom: 20px;
+        width: 100%;
     }
     .card{
         border-bottom: 0px;
@@ -426,17 +446,11 @@ body{
     .form-pesquisa{
         width: 100%;
     }
+    .text-title-section{
+        font-size: 2rem;
+    }
 }
 @media (min-width: 992px){
-    #mini-banner-1{
-        background-size: 30% 90%;
-    }
-    #mini-banner-2{
-        background-size: 25% 90%;
-    }
-    #mini-banner-3{
-        background-size: 35% 90%;
-    }
     #texto-destaque-2{
         font-size: 60px;
     }
