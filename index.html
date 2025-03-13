@@ -14,11 +14,11 @@
 <body>
   <nav class="navbar bg-dark navbar-expand-lg navbar-expand-md bg-body-tertiary p-4" data-bs-theme="dark">
     <div
-      class="container d-lg-flex flex-lg-column justify-content-lg-center align-items-lg-center d-md-flex flex-md-column justify-content-md-center align-items-md-center">
+      class="container d-lg-flex flex-lg-column justify-content-lg-center justify-content-center align-items-center align-items-lg-center d-md-flex flex-md-column justify-content-md-center align-items-md-center">
       <div
-        class="d-flex flex-column w-100 justify-content-center align-items-center flex-lg-row justify-content-lg-around align-items-lg-center">
+        class="d-flex flex-column justify-content-center align-items-center flex-lg-row justify-content-lg-around align-items-lg-center w-100">
         <a class="navbar-brand" href="#">ExactTime</a>
-        <form class="d-flex" role="search">
+        <form class="d-flex justify-content-center form-pesquisa" role="search">
           <input class="form-control input-pesquisar me-2" type="search" placeholder="Digite para pesquisar"
             aria-label="Search">
           <button class="btn btn-outline-success" id="botao-pesquisar" type="submit">Pesquisar</button>
@@ -127,7 +127,7 @@
     <h2 class="text-title-section">BEST SELLERS</h2>
   </div>
 
-  <div class="container d-flex flex-column flex-md-row">
+  <div class="container-fluid d-flex flex-column flex-md-row px-0">
     <div class="container d-flex justify-content-center p-md-0">
       <div class="card w-100">
         <img src="img/relogio1.png" class="card-img-top" alt="...">
@@ -268,6 +268,19 @@
 
   </div>
 
+  <div class="container-fluid galeria d-md-flex flex-md-column justify-content-md-center align-items-center flex-lg-row mx-md-0 p-md-0 p-0">
+      <div class="container d-md-flex justify-content-md-center align-items-center mx-md-0 p-md-0">
+        <div id="imagem-1"></div>
+        <div id="imagem-2"></div>
+        <div id="imagem-3"></div>
+      </div>
+      <div class="container d-md-flex justify-content-center align-items-center mx-md-0 p-md-0">
+        <div id="imagem-4"></div>
+        <div id="imagem-5"></div>
+        <div id="imagem-6"></div>
+      </div>
+  </div>
+
   <footer>
     <div class="container-fluid d-md-flex justify-content-center align-items-center">
       <div class="container d-flex flex-column justify-content-center align-items-center p-5 paginas-footer">
@@ -308,6 +321,7 @@
     <div class="container-fluid d-flex justify-content-center align-items-center p-4">
       <p id="text-direitos">Todos os direitos reservados @2025 <a href="" id="link-site">ExactTime</a> - A sua loja de relógios</p>
     </div>
+
 
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
